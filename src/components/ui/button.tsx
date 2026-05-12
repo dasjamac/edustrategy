@@ -18,7 +18,7 @@ const buttonVariants = cva(
         // Premium CTA variants
         gold: "bg-gold-gradient text-foreground font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]",
         goldOutline: "border-2 border-gold text-gold hover:bg-gold hover:text-foreground font-semibold",
-        hero: "bg-gold-gradient text-foreground font-semibold text-base px-8 py-6 shadow-elevated hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]",
+        hero: "bg-green-600 text-white font-semibold text-base px-8 py-6 shadow-elevated hover:bg-green-700 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]",
         heroOutline: "border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-medium text-base px-8 py-6",
         navy: "bg-primary text-primary-foreground font-semibold hover:bg-navy-light shadow-soft hover:shadow-card",
       },
