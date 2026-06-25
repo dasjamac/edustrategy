@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-EducationStrategy is a Russian-language landing page + career quiz for helping Russian-speaking students navigate European university programs (Belgium, Netherlands, France). Hosted on Lovable, deployed at `edustrategy.lovable.app`.
+EducationStrategy is a Russian-language landing page + career quiz for helping Russian-speaking students navigate European university programs (Belgium, Netherlands, France).
 
 ## Commands
 
@@ -43,7 +43,7 @@ Typography: Playfair Display (headings via `font-serif`), Inter (body via `font-
 
 ## Deployment
 
-Lovable auto-deploys from the `main` branch. External GitHub commits may require a manual sync in the Lovable UI. The `lovable-tagger` dev plugin adds component tags in development mode only.
+Build with `bun run build` (or `npm run build`); the static output in `dist/` can be served by any static host.
 
 ## Language
 
